@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MenuApp" parent="Theme.Material3.Light">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryVariant">@color/red</item>
+        <item name="colorSecondary">@color/dark</item>
+        <item name="colorSurface">@color/red</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+    </style>
+    <style name="Button.Gray" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/gray</item>
+    </style>
+</resources>
