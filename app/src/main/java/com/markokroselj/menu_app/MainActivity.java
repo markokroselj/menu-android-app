@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
                 "mešana solata"
         };
 
+
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, R.layout.list_view, sampleMenuItems);
         dailyMenuLV.setAdapter(adapter);
 
